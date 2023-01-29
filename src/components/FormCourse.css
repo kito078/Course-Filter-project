@@ -1,0 +1,52 @@
+.form-container{
+    max-width: 400px;
+    margin: auto;
+}
+.text__wrap{
+    max-width: 600px;
+    margin: auto;
+}
+
+.card-date{
+    font-size: 0.7rem;
+}
+
+.best-seller{
+    background: rgb(245, 235, 178);
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+h5{
+    font-size: 1.1rem !important;
+}
+p{
+    font-size: 0.9rem;
+}
+
+/*courses */
+.courses{
+    max-width: 900px;
+    margin: auto;
+}
+.course__items{
+    display: grid;
+    grid-template-columns: 
+  repeat(auto-fit, minmax(300px, 1fr));
+  align-items: center;
+  justify-items: center;
+  
+}
+
+.add-btn{
+    max-width: 200px !important;
+    margin: auto !important;
+}
+.course__name{
+    font-weight: bold !important;
+    color: #555;
+}
+.num-course{
+    font-weight: bold;
+   
+}
